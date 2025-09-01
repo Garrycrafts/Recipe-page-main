@@ -9,6 +9,7 @@
   }
   .page-card {
     margin: 0;
+
     &__title {
       padding: 2rem;
     }
@@ -17,23 +18,31 @@
     &__text {
       padding-left: 2rem;
     }
-    //padding-left: 1.8rem;
+  }
+  //padding-left: 1.8rem;
+  .header {
     &__img {
       border-radius: 0;
+      margin-left: 0;
       width: 100%;
       height: 25vw;
     }
-    .prep {
-      padding: 2rem;
-      margin: 0 auto;
+    &__title,
+    &__text {
+      margin-left: 2rem;
     }
-    .nutrition {
-      padding: 2rem;
-      &__title {
-        font-size: 3.2rem;
-        margin-bottom: 2rem;
-      }
+  }
+  .prep {
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .nutrition {
+    padding: 2rem;
+    &__title {
+      font-size: 3.2rem;
+      margin-bottom: 2rem;
     }
+
     .instruction {
       width: 90%;
       &__title {
@@ -66,7 +75,7 @@
   }
   .prep {
     width: 80%;
-    padding-left: 4rem;
+    padding-left: 2rem;
     &__item {
       padding-left: 2rem;
       color: $Stone600;
