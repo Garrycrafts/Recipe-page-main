@@ -1,6 +1,6 @@
 @use "base" as *;
 
-@media (max-width: 1440px) {
+@media (max-width: 860px) {
   html {
     font-size: 56.25%;
   }
@@ -54,21 +54,25 @@
         font-size: 3.2rem;
         margin-bottom: 2rem;
       }
+      &__item {
+        margin-left: 2rem;
+      }
     }
   }
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+  .prep {
+    width: 80%;
+    padding-left: 4rem;
+    &__item {
+      padding-left: 2rem;
+      color: $Stone600;
+    }
+  }
+}
 
-  @media (max-width: 1024px) {
-    html {
-      font-size: 50%;
-    }
-    .prep {
-      padding: 1rem;
-    }
-  }
-
-  @media (max-width: 360px) {
-    html {
-      font-size: 56.25%;
-    }
-  }
+@media (max-width: 360px) {
 }
