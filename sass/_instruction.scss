@@ -1,0 +1,29 @@
+@use "base" as *;
+
+.instruction {
+  display: flex;
+  flex-direction: column;
+
+  width: 90%;
+  padding: $container-padding;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  &__title {
+    color: $Brown800;
+    font-size: $font-big;
+    font-family: $font-YoungSerif;
+    margin-bottom: $title-margin-b;
+  }
+
+  &__item {
+    padding-left: 2rem;
+    margin-top: 2rem;
+    font-family: $font-Outfit;
+    color: $Stone900;
+    font-size: $font-medium;
+    line-height: 1.2;
+    &::marker {
+      color: $Brown800;
+    }
+  }
+}

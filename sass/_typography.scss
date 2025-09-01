@@ -1,0 +1,12 @@
+@use "base" as *;
+
+.text-focus {
+  font-weight: 700;
+}
+
+.p {
+  color: $Stone600;
+  &__focus {
+    font-weight: 700;
+  }
+}

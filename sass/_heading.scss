@@ -1,0 +1,29 @@
+@use "base" as *;
+.header {
+  background: $White;
+  display: flex;
+  flex-direction: column;
+  margin: $container-margin;
+  margin-top: 10vh;
+  padding: $container-padding;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  &__img {
+    border-radius: 2rem;
+    height: auto;
+    width: 100%;
+    margin-bottom: 2rem;
+    align-self: center;
+  }
+  &__title {
+    font-size: $font-huge;
+    margin-bottom: 2rem;
+    font-family: $font-YoungSerif;
+  }
+  &__text {
+    font-size: $font-medium;
+    color: $Stone100;
+    margin-bottom: 2rem;
+    font-family: $font-Outfit;
+  }
+}

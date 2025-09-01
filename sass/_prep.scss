@@ -1,0 +1,30 @@
+@use "base" as *;
+
+.prep {
+  display: flex;
+  flex-direction: column;
+
+  background-color: $Rose50;
+  border-radius: 2rem;
+  padding-left: 2rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 3rem;
+
+  width: 90%;
+  &__title {
+    font-size: $font-medium;
+    margin-bottom: 1rem;
+    color: $Rose800;
+    font-family: $font-Outfit;
+  }
+  &__list {
+    font-size: $font-medium;
+    padding-left: 2rem;
+    color: $Brown800;
+  }
+  &__item {
+    padding-left: 2rem;
+    color: $Stone600;
+  }
+}

@@ -1,0 +1,85 @@
+@use "base" as *;
+.nutrition {
+  display: flex;
+  flex-direction: column;
+
+  //padding: $container-padding;
+
+  padding-bottom: 0;
+  padding-top: 2rem;
+  &__item--1 {
+    padding-left: 5rem;
+
+    color: red;
+  }
+  &__item {
+    padding-left: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom: $Stone150 0.2rem solid;
+    color: red;
+  }
+  &__chart {
+    list-style: none;
+    padding-left: 2rem;
+    font-size: $font-medium;
+    grid-template-columns: 2rem 2rem;
+
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  &__title {
+    color: $Brown800;
+    font-family: $font-YoungSerif;
+    font-size: $font-big;
+    margin-bottom: $title-margin-b;
+    font-family: $font-Outfit;
+  }
+
+  &__sub {
+    margin-bottom: 2rem;
+    color: $Stone900;
+    font-family: $font-Outfit;
+    font-size: $font-medium;
+    line-height: 1.2;
+    &::marker {
+      color: black;
+    }
+  }
+}
+
+.nutrition__chart {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  // width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1.6rem;
+}
+
+.nutrition__item {
+  display: contents; // lets label & value align in the grid
+}
+
+.nutrition__label {
+  padding: 1.2rem 0;
+  padding-left: 2rem;
+  color: $Stone600;
+  font-family: $font-Outfit;
+  font-weight: 500;
+  border-bottom: 1px solid $Stone150;
+}
+.nutrition__label--2 {
+  border-bottom: none;
+}
+.nutrition__value {
+  padding: 1.2rem 0;
+  font-family: $font-Outfit;
+  font-weight: bold;
+  color: $Brown800;
+  text-align: left;
+  border-bottom: 1px solid $Stone150;
+}
+.nutrition__value--2 {
+  border-bottom: none;
+}

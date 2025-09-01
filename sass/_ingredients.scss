@@ -1,0 +1,23 @@
+@use "base" as *;
+
+.ingredient {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.5rem;
+  padding: $container-padding;
+
+  &__title {
+    font-size: $font-big;
+    margin-bottom: $title-margin-b;
+    color: $Brown800;
+    font-family: $font-YoungSerif;
+  }
+  &__item {
+    font-size: $font-medium;
+    padding-left: 2rem;
+    font-family: $font-Outfit;
+    margin-top: 0.5rem;
+    color: $Stone900;
+    margin-left: 2rem;
+  }
+}

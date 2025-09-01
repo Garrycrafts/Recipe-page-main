@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+$White: hsl(0, 0%, 100%);
+
+$Stone100: hsl(30, 54%, 90%);
+$Stone150: hsl(30, 18%, 87%);
+$Stone600: hsl(30, 10%, 34%);
+$Stone900: hsl(24, 5%, 18%);
+$Brown800: hsl(14, 45%, 36%);
+
+$Rose800: hsl(332, 51%, 32%);
+$Rose50: hsl(330, 100%, 98%);
+
+body {
+  background-color: wheat;
+}
+
+//typograhpy
+
+$font-huge: 3.2rem;
+$font-big: 2.4rem;
+$font-medium: 2rem;
+$font-small: 1.6rem;
+
+$font-Outfit: "Outfit";
+$font-YoungSerif: "Young Serif";
+// Spacing
+
+$container-padding: 3rem 3rem;
+$container-margin: 50rem;
+
+$title-margin-b: 2rem;
+
+// .container {
+//   background: green;
+//   display: flex;
+//   flex-direction: column;
+//   margin: $container-margin;
+//   margin-top: 2rem;
+//   padding: $container-padding;
+//   border-radius: 2rem;
+// }
+
+.page-card {
+  max-width: 46rem; /* ~736px */
+  width: 100%;
+  margin: 6rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 2rem;
+}
