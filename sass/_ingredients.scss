@@ -3,8 +3,10 @@
 .ingredient {
   display: flex;
   flex-direction: column;
-  padding-left: 2.5rem;
+
   padding: $container-padding;
+
+  padding-bottom: 2rem;
 
   &__title {
     font-size: $font-big;
@@ -13,11 +15,11 @@
     font-family: $font-YoungSerif;
   }
   &__item {
+    padding-left: 2.5rem;
+    margin-top: 2rem;
     font-size: $font-medium;
-    padding-left: 2rem;
     font-family: $font-Outfit;
-    margin-top: 0.5rem;
     color: $Stone900;
-    margin-left: 2rem;
+    // margin-left: 1rem;
   }
 }

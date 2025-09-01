@@ -6,10 +6,10 @@
 
   background-color: $Rose50;
   border-radius: 2rem;
-  padding-left: 2rem;
   margin: 0;
   margin-bottom: 2rem;
-  padding: 3rem;
+  padding: 3.5rem;
+  padding-left: 2.5rem;
 
   width: 90%;
   &__title {
@@ -20,11 +20,11 @@
   }
   &__list {
     font-size: $font-medium;
-    padding-left: 2rem;
+    padding-left: 3rem;
     color: $Brown800;
   }
   &__item {
-    padding-left: 2rem;
+    padding-left: 3rem;
     color: $Stone600;
   }
 }
