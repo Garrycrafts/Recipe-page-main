@@ -1,13 +1,5 @@
 @use "base" as *;
 .header {
-  background: $White;
-  display: flex;
-  flex-direction: column;
-  margin: $container-margin;
-  margin-top: 10vh;
-  padding: $container-padding;
-  border-radius: 2rem;
-  margin-bottom: 2rem;
   &__img {
     border-radius: 2rem;
     height: auto;

@@ -50,10 +50,12 @@ $title-margin-b: 1rem;
 // }
 
 .page-card {
-  max-width: 46rem; /* ~736px */
-  width: 100%;
-  margin: 6rem auto;
-  padding: 2rem;
-  background: #fff;
+  background: $White;
+  display: flex;
+  flex-direction: column;
+  margin: $container-margin;
+  margin-top: 10vh;
+  padding: $container-padding;
   border-radius: 2rem;
+  margin-bottom: 2rem;
 }
