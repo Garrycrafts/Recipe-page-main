@@ -1,11 +1,12 @@
 @use "base" as *;
-
+// 860 px
 @media (max-width: 53.75em) {
   html {
     font-size: 56.25%;
   }
   .seperator {
-    padding-right: 0;
+    // padding-right: 0;
+    width: 60%;
   }
   .page-card {
     margin: 0;
